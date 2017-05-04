@@ -148,10 +148,44 @@ var education = {
     }
 };
 
+var navbar = {
+    items: [{
+        id: '#header',
+        content: 'Top'
+    }, {
+        id: '#workExperience',
+        content: 'Work Experience'
+    }, {
+        id: '#projects',
+        content: 'Projects'
+    }, {
+        id: '#education',
+        content: 'Education'
+    }, {
+        id: '#mapDiv',
+        content: 'Map'
+    }, {
+        id: '#lets-connect',
+        content: 'Connect'
+    }],
+
+    display: function () {
+        if (this.items.length > 0) {
+            $('#main').prepend(HTMLNavbar);
+            var navbarList = $('#navbar-list');
+
+            this.items.forEach(function (item) {
+                 navbarList.append(HTMLNavbarItem.replace('#', item.id).replace('%data%', item.content));
+            });
+        }
+    }
+};
+
 bio.display();
 work.display();
 projects.display();
 education.display();
 bio.displayContacts($('#footerContacts'));
+navbar.display();
 
 $('#mapDiv').append(googleMap);

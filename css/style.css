@@ -14,6 +14,10 @@ h6 {
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  color: black;
+}
+
 .clear-fix {
   overflow: auto;
 }
@@ -171,6 +175,15 @@ span {
   padding: 5px;
 }
 
+.icon-bar {
+  padding: 0;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
 #lets-connect {
   text-align: center;
 }
@@ -217,5 +230,16 @@ span {
   #skills-h3,
   .biopic {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    position: absolute;
+    right: 36px;
+    top: 16px;
+  }
+  .navbar-toggle {
+    margin-right: 0;
   }
 }

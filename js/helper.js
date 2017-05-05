@@ -60,6 +60,8 @@ var HTMLonlineSchool = ' - %data%</a>';
 var HTMLonlineDates = '<div class="date-text">%data%</div>';
 var HTMLonlineURL = '<br><a href="#">%data%</a>';
 
+var HTMLRSS = '<li class="flex-item"><a class="rss" href="#" target="__blank"><img class="rss-icon" src="%data%" alt="RSS icon"></a></li>';
+
 var internationalizeButton = '<button>Internationalize</button>';
 var googleMap = '<div id="map"></div>';
 

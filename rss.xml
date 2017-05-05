@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Resume</title>
+        <link>https://zhjgithub.github.io/frontend-nanodegree-resume/</link>
+        <description>This is my personnal resume!</description>
+        <lastBuildDate>Fri, 05 May 2017 08:49:16 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>Feed for Node.js</generator>
+        <image>
+            <title>Resume</title>
+            <url>https://zhjgithub.github.io/frontend-nanodegree-resume/images/fry.jpg</url>
+            <link>https://zhjgithub.github.io/frontend-nanodegree-resume/</link>
+        </image>
+        <copyright>All rights reserved 2017, Jun Zhang</copyright>
+        <item>
+            <title><![CDATA[Biography  ]]></title>
+            <link>https://zhjgithub.github.io/frontend-nanodegree-resume/#header</link>
+            <guid>https://zhjgithub.github.io/frontend-nanodegree-resume/#header</guid>
+            <pubDate>Fri, 05 May 2017 08:49:16 GMT</pubDate>
+            <description><![CDATA[Biography]]></description>
+            <content:encoded><![CDATA[<p><span style="font-size: 1.5em">Jun Zhang</span> <span>Web Developer</span></p><p><ul><li>mobile 18501638530</li><li>email neuqzhj@gmail.com</li><li>github https://github.com/zhjgithub</li><li>location Shanghai</li></ul></p><p>Hi, welcome.</p><div>Skills at a Glance:</div><p><ul><li>HTML</li><li>CSS</li><li>JavaScript</li></ul></p>]]></content:encoded>
+            <author>neuqzhj@gmail.com (Jun Zhang)</author>
+        </item>
+        <item>
+            <title><![CDATA[Work Experience]]></title>
+            <link>https://zhjgithub.github.io/frontend-nanodegree-resume/#workExperience</link>
+            <guid>https://zhjgithub.github.io/frontend-nanodegree-resume/#workExperience</guid>
+            <pubDate>Fri, 05 May 2017 08:49:16 GMT</pubDate>
+            <description><![CDATA[Work Experience]]></description>
+            <content:encoded><![CDATA[<h3>Work Experience</h3><div><a href="#">Shanghai Mokun - Game Developer</a><br><span>2014-2017 Shanghai</span><br><span>Game Develop</span></div><div><a href="#">Shanghai Yiwei - Game Developer</a><br><span>2013-2014 Shanghai</span><br><span>Game Develop</span></div>]]></content:encoded>
+            <author>neuqzhj@gmail.com (Jun Zhang)</author>
+        </item>
+        <item>
+            <title><![CDATA[Projects]]></title>
+            <link>https://zhjgithub.github.io/frontend-nanodegree-resume/#projects</link>
+            <guid>https://zhjgithub.github.io/frontend-nanodegree-resume/#projects</guid>
+            <pubDate>Fri, 05 May 2017 08:49:16 GMT</pubDate>
+            <description><![CDATA[Projects]]></description>
+            <content:encoded><![CDATA[<h3>Projects</h3><p><span>Mobile Game</span><br><span>2014-2017</span><br><span>Mobile game development</span></p><p><span>PC Game</span><br><span>2013-2014</span><br><span>PC game development</span></p>]]></content:encoded>
+            <author>neuqzhj@gmail.com (Jun Zhang)</author>
+        </item>
+        <item>
+            <title><![CDATA[Education]]></title>
+            <link>https://zhjgithub.github.io/frontend-nanodegree-resume/#education</link>
+            <guid>https://zhjgithub.github.io/frontend-nanodegree-resume/#education</guid>
+            <pubDate>Fri, 05 May 2017 08:49:16 GMT</pubDate>
+            <description><![CDATA[Education]]></description>
+            <content:encoded><![CDATA[<h3>Education</h3><div><a href="http://www.neuq.edu.cn/">NEUQ - bachelor</a><br><span>2001-2005</span><br><span>Major: Computer Science and Technology</span></div><h3>Online Classes</h3><div><a href="https://cn.udacity.com/course/front-end-web-developer-nanodegree--nd001-cn-basic">Front-end Development Basic - Udacity</a><br><span>2017</span><br><a href="https://cn.udacity.com/course/front-end-web-developer-nanodegree--nd001-cn-basic">https://cn.udacity.com/course/front-end-web-developer-nanodegree--nd001-cn-basic</a></div>]]></content:encoded>
+            <author>neuqzhj@gmail.com (Jun Zhang)</author>
+        </item>
+    </channel>
+</rss>

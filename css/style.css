@@ -184,6 +184,21 @@ span {
   border-radius: 0;
 }
 
+hr {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.rss {
+  margin-top: 0;
+  padding: 0;
+}
+
+.rss-icon {
+  padding: 0;
+  width: 20px;
+}
+
 #lets-connect {
   text-align: center;
 }

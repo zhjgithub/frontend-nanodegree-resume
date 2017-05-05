@@ -18,6 +18,7 @@ var bio = {
         headerNode.prepend(HTMLheaderName.replace('%data%', this.name));
         headerNode.append(HTMLbioPic.replace('%data%', this.biopic));
         this.displayContacts($('#topContacts'));
+        this.displayContacts($('#footerContacts'));
         headerNode.append(HTMLwelcomeMsg.replace('%data%', this.welcomeMessage));
 
         if (this.skills.length > 0) {
@@ -181,11 +182,21 @@ var navbar = {
     }
 };
 
+var rss = {
+    icon: 'images/feed-icon.png',
+    url: 'https://zhjgithub.github.io/frontend-nanodegree-resume/rss.xml',
+
+    display: function () {
+        var rssLink = HTMLRSS.replace('#', this.url).replace('%data%', this.icon);
+        $('#footerContacts').append(rssLink);
+    }
+};
+
 bio.display();
 work.display();
 projects.display();
 education.display();
-bio.displayContacts($('#footerContacts'));
 navbar.display();
+rss.display();
 
 $('#mapDiv').append(googleMap);

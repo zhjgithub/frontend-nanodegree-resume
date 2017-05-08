@@ -7,8 +7,8 @@ var bio = {
         github: 'https://github.com/zhjgithub',
         location: 'Shanghai'
     },
-    welcomeMessage: 'Hi, welcome.',
-    skills: ['HTML', 'CSS', 'JavaScript'],
+    welcomeMessage: 'I was a game developer for 6 years. I would like to be a web developer.',
+    skills: ['HTML/CSS/JavaScript', 'Regular Expression', 'Bootstrap', 'jQuery', 'C++/C#'],
     biopic: 'images/fry.jpg',
 
     display: function () {
@@ -45,13 +45,19 @@ var work = {
         title: 'Game Developer',
         location: 'Shanghai',
         dates: '2014-2017',
-        description: 'Game Develop'
+        description: 'Develop a mobile game on the Apple App Store and Tencent App Store'
     }, {
         employer: 'Shanghai Yiwei',
         title: 'Game Developer',
         location: 'Shanghai',
-        dates: '2013-2014',
-        description: 'Game Develop'
+        dates: '2012-2013',
+        description: 'Develop 3D MMORPG game'
+    }, {
+        employer: 'Shanghai Baze',
+        title: 'Game Developer',
+        location: 'Shanghai',
+        dates: '2010-2011',
+        description: 'Develop 2D online game'
     }],
     display: function () {
         if (this.jobs.length > 0) {
@@ -70,15 +76,20 @@ var work = {
 
 var projects = {
     projects: [{
-        title: 'Mobile Game',
+        title: 'QMWS - Mokun',
         dates: '2014-2017',
-        description: 'Mobile game development',
-        images: ['images/197x148.gif']
+        description: 'Mobile game developed by Unity3D',
+        images: ['images/project.jpg']
     }, {
-        title: 'PC Game',
-        dates: '2013-2014',
-        description: 'PC game development',
-        images: ['images/197x148.gif', 'images/197x148.gif']
+        title: 'Dasong - Yiwei',
+        dates: '2012-2013',
+        description: 'Developed by C++ and AS2/AS3 based on UE3 and Scaleform',
+        images: ['images/project.jpg']
+    }, {
+        title: 'Xiakeyou - Baze',
+        dates: '2010-2011',
+        description: 'Developed by C++ based on a customer game engine',
+        images: ['images/project.jpg']
     }],
     display: function () {
         if (this.projects.length > 0) {
